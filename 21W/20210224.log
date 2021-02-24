@@ -1,7 +1,19 @@
 Alex Rodriguez
 Localization Project
 
-goal:
-objective
-status:
+goal: script to make kingfisher move
+objective: figure out the commands
+status: success
 report:
+
+* Make sure you call catkin_make and source devel/setup.bash*
+if you don't, you will get a lot of issues!
+
+
+If I want to launch the kingfisher robot in gaezbo, this works: $ roslaunch kingfisher_gazebo kingfisher_gazebo_worlds.launch
+
+
+To move in the command-line, I can use: rostopic pub /cmd_drive usv_gazebo_plugins/UsvDrive -r 10 "left: 1.0 right: 0.0"
+
+
+
