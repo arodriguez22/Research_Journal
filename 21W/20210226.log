@@ -1,0 +1,22 @@
+Alex Rodriguez
+Localization Project
+
+goal: node moves robot in square
+objective: compile the list of commands
+status:
+report:
+
+List of commands to go in circle cli:
+
+- going forward a little bit
+
+rostopic pub /cmd_drive usv_gazebo_plugins/UsvDrive "left: 1.0
+right: 1.0" 
+
+- roughly turn 90 degrees
+
+rostopic pub /cmd_drive usv_gazebo_plugins/UsvDrive "left: 0.0
+right: 0.2" 
+
+
+
