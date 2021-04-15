@@ -32,5 +32,20 @@
 	1. Create directory
 		`mkdir -p catkin_ws/src`
 		`cd catkin_ws/src`
-	2. install dependencies (go back and add):
+	2. Install catkin
+		`sudo apt-get install ros-melodic-catkin`
+		(from ros website)
+
+		`source /opt/ros/melodic/setup.bash`
+		`cd ~/catkin_ws`
+		`catkin_make`
+	3. install dependencies (go back and add):
+
 		`sudo apt-get build-dep python-matplotlib` 
+	4. Clone repo then build and source
+		`cd catkin_ws/src`
+		`git clone https://github.com/dartmouthrobotics/ros_tutorial_package.git`
+		`cd ..`
+		`catkin_make`
+		`source devel/setup.bash`
+	
