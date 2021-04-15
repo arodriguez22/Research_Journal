@@ -7,6 +7,7 @@
 	to install ROS, catkin, and necessary repos
 4. Follow [guide](https://docs.google.com/document/d/1AgHEoISfurCphe3-cNENub1hV4N7bBuUsl3nxiSbwGM/edit) for CS class
 	install kingfisher and necessary packages
+5. important link https://drive.google.com/drive/folders/1PjZWZ8HKPryVTcmoGX9KA-lx8f0wIKo5?usp=sharing
 
 
 # Step 1: install research journal
